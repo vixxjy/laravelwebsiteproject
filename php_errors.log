@@ -1,0 +1,9 @@
+[08-May-2017 22:04:54 UTC] PHP Warning:  Uncaught ErrorException: require(mail.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/storage/framework/views/7611208ff40c20da62d6ccecf5b50423b7a099ed.php:2
+Stack trace:
+#0 /home/ubuntu/workspace/storage/framework/views/7611208ff40c20da62d6ccecf5b50423b7a099ed.php(2): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(mail.ph...', '/home/ubuntu/wo...', 2, Array)
+#1 /home/ubuntu/workspace/storage/framework/views/7611208ff40c20da62d6ccecf5b50423b7a099ed.php(2): require()
+#2 /home/ubuntu/workspace/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(42): include('/home/ubuntu/wo...')
+#3 /home/ubuntu/workspace/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/ubuntu/wo...', Array)
+#4 /home/ubuntu/workspace/vendor/laravel/framework/src/Illuminate/View/View.php(137): Illuminate\View\Engines\CompilerEngine->get('/home/ubuntu/wo...', Array)
+#5 /home/ubuntu/workspace/v in /home/ubuntu/workspace/storage/framework/views/7611208ff40c20da62d6ccecf5b50423b7a099ed.php on line 2
+[08-May-2017 22:04:54 UTC] PHP Fatal error:  Illuminate\View\Engines\PhpEngine::main(): Failed opening required 'mail.php' (include_path='.:/usr/share/php') in /home/ubuntu/workspace/storage/framework/views/7611208ff40c20da62d6ccecf5b50423b7a099ed.php on line 2
